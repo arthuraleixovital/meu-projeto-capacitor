@@ -14,7 +14,7 @@
 	let tarefaEditando = $state();
 	let tarefaExcluindo;
 	let mensagemToast;
-	let exibir = $state("0");
+	let exibir = $state('0');
 
 	async function adicionarTarefa() {
 		novaTarefa = novaTarefa.trim();
@@ -76,7 +76,6 @@
 	onMount(() => {
 		mensagemToast = new bootstrap.Toast('#mensagemToast');
 	});
-
 </script>
 
 <div class="fixed-top pt-5" style="z-index: 1020;">
@@ -125,7 +124,9 @@
 			/>
 		{/if}
 
-		<button type="button" class="btn btn-warning" onclick={alltasksdone}>Todas tarefas concluidas</button>
+		<button type="button" class="btn btn-warning" onclick={alltasksdone}
+			>Todas tarefas concluidas</button
+		>
 		<button type="button" class="btn btn-danger" onclick={alltasksundone}
 			>Todas tarefas pendentes</button
 		>
