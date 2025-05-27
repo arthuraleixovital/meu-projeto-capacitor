@@ -14,7 +14,7 @@
 	let tarefaEditando = $state();
 	let tarefaExcluindo;
 	let mensagemToast;
-	let exibir = $state('0');
+	let exibir = $state('2');
 
 	async function adicionarTarefa() {
 		novaTarefa = novaTarefa.trim();
@@ -90,13 +90,34 @@
 
 <form>
 	<div class="container-fluid mt-5 pt-4">
-		Quais tarefas exibir?
-		<select name="pets" id="pet-select" bind:value={exibir}>
-			<option value="0">Pendentes</option>
-			<option value="1">Concluídas</option>
-		</select>
-
-		<br />
+		<div class="dropdown">
+			<button
+				class="btn btn-secondary"
+				type="button"
+				data-bs-toggle="dropdown"
+				aria-expanded="false"
+				style="width: 100%;">
+				Configurações
+			</button>
+			<ul class="dropdown-menu" style="width: 100%; text-align: center">
+				Quais tarefas exibir?
+				<select name="exibir" id="pet-select" bind:value={exibir}>
+					<option value="0">Pendentes</option>
+					<option value="1">Concluídas</option>
+					<option value="2">Todas</option>
+				</select>
+				<br />
+				<button type="button" onclick={alltasksdone} style="border-radius: 10px;">Todas tarefas concluidas</button>
+				<button type="button" onclick={alltasksundone} style="border-radius: 10px;">Todas tarefas pendentes</button>
+				<br />
+				Tarefas totais: <b>{tarefas.length}</b>
+				<br />
+				Tarefas pendentes: <b>{tarefasPendentes.length}</b>
+				<br />
+				Tarefas concluídas: <b>{tarefasConcluidas.length}</b>
+				<br />
+			</ul>
+		</div>
 
 		<br />
 
@@ -122,14 +143,18 @@
 				{alterarStatus}
 				{excluirTarefa}
 			/>
+		{:else if exibir == '2'}
+			<ToDoList
+				tarefas={tarefas}
+				{tarefaEditando}
+				bind:conteudoTarefaEditando
+				{editarTarefa}
+				{confirmarEdicao}
+				{cancelarEdicao}
+				{alterarStatus}
+				{excluirTarefa}
+			/>
 		{/if}
-
-		<button type="button" class="btn btn-warning" onclick={alltasksdone}
-			>Todas tarefas concluidas</button
-		>
-		<button type="button" class="btn btn-danger" onclick={alltasksundone}
-			>Todas tarefas pendentes</button
-		>
 	</div>
 
 	<Modal msg={'Deseja excluir a tarefa?'} acao={confirmarExclusao} />
