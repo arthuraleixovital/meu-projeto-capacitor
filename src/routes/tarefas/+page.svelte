@@ -110,12 +110,9 @@
 				<button type="button" onclick={alltasksdone} style="border-radius: 10px;">Todas tarefas concluidas</button>
 				<button type="button" onclick={alltasksundone} style="border-radius: 10px;">Todas tarefas pendentes</button>
 				<br />
-				Tarefas totais: <b>{tarefas.length}</b>
-				<br />
-				Tarefas pendentes: <b>{tarefasPendentes.length}</b>
-				<br />
-				Tarefas concluídas: <b>{tarefasConcluidas.length}</b>
-				<br />
+				<span class="badge text-bg-secondary">Totais: {tarefas.length}</span>
+				<span class="badge text-bg-warning">Pendentes: {tarefasPendentes.length}</span>
+				<span class="badge text-bg-success">Concluídas: {tarefasConcluidas.length}</span>
 			</ul>
 		</div>
 
