@@ -5,6 +5,7 @@
 	import ToDoList from '$lib/components/ToDoList.svelte';
 	import * as bootstrap from 'bootstrap';
 	import { exists } from 'drizzle-orm';
+	import { flip } from 'svelte/animate';
 
 	let novaTarefa = $state('');
 	let tarefas = $state([]);
@@ -15,6 +16,7 @@
 	let tarefaExcluindo;
 	let mensagemToast;
 	let exibir = $state('2');
+	let busca = $state('');
 
 	async function adicionarTarefa() {
 		novaTarefa = novaTarefa.trim();
@@ -76,6 +78,10 @@
 	onMount(() => {
 		mensagemToast = new bootstrap.Toast('#mensagemToast');
 	});
+
+	function buscarTarefas() {
+		return tarefas.filter(tarefa => tarefa.conteudo.toLowerCase().includes(busca.toLowerCase()));
+	}
 </script>
 
 <div class="fixed-top pt-5" style="z-index: 1020;">
@@ -90,6 +96,8 @@
 
 <form>
 	<div class="container-fluid mt-5 pt-4">
+		<input class="form-control form-control-lg" placeholder="Busca" bind:value={busca} />
+		<br />
 		<div class="dropdown">
 			<button
 				class="btn btn-secondary"
@@ -120,7 +128,7 @@
 
 		{#if exibir == '0'}
 			<ToDoList
-				tarefas={tarefasPendentes}
+				tarefas={buscarTarefas().filter(tarefa => tarefa.status == 0)}
 				{tarefaEditando}
 				bind:conteudoTarefaEditando
 				{editarTarefa}
@@ -131,7 +139,7 @@
 			/>
 		{:else if exibir == '1'}
 			<ToDoList
-				tarefas={tarefasConcluidas}
+				tarefas={buscarTarefas().filter(tarefa => tarefa.status == 1)}
 				{tarefaEditando}
 				bind:conteudoTarefaEditando
 				{editarTarefa}
@@ -142,7 +150,7 @@
 			/>
 		{:else if exibir == '2'}
 			<ToDoList
-				tarefas={tarefas}
+				tarefas={buscarTarefas()}
 				{tarefaEditando}
 				bind:conteudoTarefaEditando
 				{editarTarefa}
