@@ -93,7 +93,7 @@
 	</form>
 	<Toast msg={'Digite algo!'} />
 </div>
-
+ 
 <form>
 	<div class="container-fluid mt-5 pt-4">
 		<input class="form-control form-control-lg" placeholder="Busca" bind:value={busca} />
