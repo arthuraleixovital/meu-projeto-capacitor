@@ -1,8 +1,8 @@
 <script>
 </script>
 
-<div class="text-center">
-<input type="text" class="form-control">
+<div class="text-center mt-2">
+<input type="text" class="form-control" >
 <table class="table table-borderless">
     <tbody>
         <tr>
