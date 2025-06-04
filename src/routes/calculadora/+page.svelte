@@ -1,38 +1,50 @@
 <script>
+
+    function press(){
+
+    }
+
+    function calc(){
+
+    }
+
+    function clear(){
+        
+    }
 </script>
 
-<div class="text-center mt-2">
-<input type="text" class="form-control" >
-<table class="table table-borderless">
+<div class="text-center mt-3">
+<input type="text" class="form-control form-control-lg"  readonly>
+<table class="table table-sm table-borderless">
     <tbody>
         <tr>
-            <td><button type="button" class="btn btn-danger w-100">C</button></td>
-            <td><button type="button" class="btn btn-primary w-100">(</button></td>
-            <td><button type="button" class="btn btn-primary w-100">)</button></td>
-            <td><button type="button" class="btn btn-info w-100">/</button></td>
+            <td><button type="button" class="btn btn-danger w-100" style="background-color: #ca1444; border-color: #ca1444; height: 80px" onclick={()=>clear()}>C</button></td>
+            <td><button type="button" class="btn btn-primary w-100" style="background-color: #ca1444; border-color: #ca1444; height: 80px" onclick={()=>press('(')}>&lpar;</button></td>
+            <td><button type="button" class="btn btn-primary w-100" style="background-color: #ca1444; border-color: #ca1444; height: 80px" onclick={()=>press(')')}>&rpar;</button></td>
+            <td><button type="button" class="btn btn-info w-100" style="background-color: #fcae11; border-color: #fcae11; height: 80px" onclick={()=>press('/')}>/</button></td>
         </tr>
         <tr>
-            <td><button type="button" class="btn btn-primary w-100">7</button></td>
-            <td><button type="button" class="btn btn-primary w-100">8</button></td>
-            <td><button type="button" class="btn btn-primary w-100">9</button></td>
-            <td><button type="button" class="btn btn-info w-100">X</button></td>
+            <td><button type="button" class="btn btn-primary w-100" style="background-color: #142738; border-color: #142738; height: 80px" onclick={()=>press(7)}>7</button></td>
+            <td><button type="button" class="btn btn-primary w-100" style="background-color: #142738; border-color: #142738; height: 80px" onclick={()=>press(8)}>8</button></td>
+            <td><button type="button" class="btn btn-primary w-100" style="background-color: #142738; border-color: #142738; height: 80px" onclick={()=>press(9)}>9</button></td>
+            <td><button type="button" class="btn btn-info w-100" style="background-color: #fcae11; border-color: #fcae11; height: 80px" onclick={()=>press('*')}>X</button></td>
         </tr>
         <tr>
-            <td><button type="button" class="btn btn-primary w-100">4</button></td>
-            <td><button type="button" class="btn btn-primary w-100">5</button></td>
-            <td><button type="button" class="btn btn-primary w-100">6</button></td>
-            <td><button type="button" class="btn btn-info w-100">-</button></td>
+            <td><button type="button" class="btn btn-primary w-100" style="background-color: #142738; border-color: #142738; height: 80px" onclick={()=>press(4)}>4</button></td>
+            <td><button type="button" class="btn btn-primary w-100" style="background-color: #142738; border-color: #142738; height: 80px" onclick={()=>press(5)}>5</button></td>
+            <td><button type="button" class="btn btn-primary w-100" style="background-color: #142738; border-color: #142738; height: 80px" onclick={()=>press(6)}>6</button></td>
+            <td><button type="button" class="btn btn-info w-100" style="background-color: #fcae11; border-color: #fcae11; height: 80px" onclick={()=>press('-')}>-</button></td>
         </tr>
         <tr>
-            <td><button type="button" class="btn btn-primary w-100">1</button></td>
-            <td><button type="button" class="btn btn-primary w-100">2</button></td>
-            <td><button type="button" class="btn btn-primary w-100">3</button></td>
-            <td rowspan="2" style="height: 0px"><button type="button" class="btn btn-info w-100 h-100">+</button></td>
+            <td><button type="button" class="btn btn-primary w-100" style="background-color: #142738; border-color: #142738; height: 80px" onclick={()=>press(1)}>1</button></td>
+            <td><button type="button" class="btn btn-primary w-100" style="background-color: #142738; border-color: #142738; height: 80px" onclick={()=>press(2)}>2</button></td>
+            <td><button type="button" class="btn btn-primary w-100" style="background-color: #142738; border-color: #142738; height: 80px" onclick={()=>press(3)}>3</button></td>
+            <td rowspan="2" style="height: 0px"><button type="button" class="btn btn-info w-100 h-100" style="background-color: #fcae11; border-color: #fcae11"onclick={()=>press('+')} >+</button></td>
         </tr>
         <tr>
-            <td><button type="button" class="btn btn-primary w-100">0</button></td>
-            <td><button type="button" class="btn btn-info w-100">.</button></td>
-            <td><button type="button" class="btn btn-info w-100">=</button></td>
+            <td><button type="button" class="btn btn-primary w-100" style="background-color: #142738; border-color: #142738; height: 80px"onclick={()=>press(0)} >0</button></td>
+            <td><button type="button" class="btn btn-info w-100" style="background-color: #142738; border-color: #142738; height: 80px; color: white" onclick={()=>press('.')}>.</button></td>
+            <td><button type="button" class="btn btn-info w-100" style="background-color: #fcae11; border-color: #fcae11; height: 80px" onclick={()=>calc()}>=</button></td>
         </tr>
     </tbody>
 </table>
