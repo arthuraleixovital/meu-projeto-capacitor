@@ -109,7 +109,7 @@
 
         {#if !showAdvanced}
             <div class="d-grid gap-2">
-                <button class="btn btn-outline-primary btn-sm advanced-toggle" on:click={() => showAdvanced = true}>
+                <button class="btn btn-outline-primary btn-sm advanced-toggle" onclick={() => showAdvanced = true}>
                     Mostrar opções avançadas
                 </button>
             </div>
@@ -125,7 +125,7 @@
                                     <button
                                         type="button"
                                         class="btn w-100 h-100 {btn.class} calc-btn"
-                                        on:click={btn.action}
+                                        onclick={btn.action}
                                         aria-label={btn.label}
                                     >
                                         {btn.label}
@@ -152,7 +152,7 @@
                                                 <button
                                                     type="button"
                                                     class="btn w-100 h-100 {btn.class} calc-btn"
-                                                    on:click={btn.action}
+                                                    onclick={btn.action}
                                                     aria-label={btn.label}
                                                 >
                                                     {btn.label}
@@ -163,7 +163,7 @@
                                                 <button
                                                     type="button"
                                                     class="btn w-100 h-100 {btn.class} calc-btn"
-                                                    on:click={btn.action}
+                                                    onclick={btn.action}
                                                     aria-label={btn.label}
                                                 >
                                                     {btn.label}
