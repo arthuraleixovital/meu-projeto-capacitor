@@ -30,10 +30,12 @@
 
 <div>
     <uL>
+		<ol>
         {#each filtradas as termo}
             <li>
                 <a href="/dicionario/{termo.palavra}">{termo.palavra}</a>
             </li>
         {/each}
+	</ol>
     </uL>
 </div>
