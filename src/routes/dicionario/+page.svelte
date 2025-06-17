@@ -1,5 +1,6 @@
 <script>
 	import { dicionario } from '$lib/dicionario.js';
+	import { goto } from '$app/navigation';
 
 	let palavra = $state('');
 	let filtradas = $state(dicionario);
@@ -17,6 +18,12 @@
 			}
 		}
 	}
+
+	function aleatorio(){
+		const indiceAleatorio = Math.floor(Math.random() * dicionario.length);
+		palavra = dicionario[indiceAleatorio].palavra;
+		goto(`/dicionario/${palavra}`);
+	}
 </script>
 
 <div>
@@ -27,6 +34,8 @@
 		bind:value={palavra}
 	/>
 </div>
+
+<button type="button" onclick={aleatorio} class="btn btn-primary">Palavra aleatória</button>
 
 <div>
     <uL>

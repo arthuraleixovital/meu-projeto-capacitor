@@ -1,909 +1,909 @@
 export const dicionario = [
     {
       palavra: "abjurar",
-      definições: [
+      definicoes: [
         "Renegar crença ou princípio que antes se professava.",
         "Abandonar formalmente crença religiosa, ideologia ou posição anterior."
       ]
     },
     {
       palavra: "acídia",
-      definições: [
+      definicoes: [
         "Falta de vontade ou preguiça profunda; apatia.",
         "No monaquismo cristão, preguiça espiritual que leva à desídia."
       ]
     },
     {
       palavra: "afável",
-      definições: [
+      definicoes: [
         "Que é cortês, amável e de trato fácil.",
         "Gentil e doce no comportamento com os outros."
       ]
     },
     {
       palavra: "alvíssaras",
-      definições: [
+      definicoes: [
         "Recompensa ou grande alegria por boas notícias.",
         "Expressão de exultação diante de boas notícias ou de lucro."
       ]
     },
     {
       palavra: "amálgama",
-      definições: [
+      definicoes: [
         "Mistura ou combinação de elementos diversos.",
         "Ligação metálica entre mercúrio e outro metal."
       ]
     },
     {
       palavra: "ambev",
-      definições: [
+      definicoes: [
         "Grande empresa brasileira de bebidas, resultante da fusão entre AmBev e a belga-brasileira Interbrew.",
         "Multinacional que produz marcas como Skol, Brahma, Antarctica."
       ]
     },
     {
       palavra: "anacrônico",
-      definições: [
+      definicoes: [
         "Que está fora de sua época apropriada; desatualizado.",
         "Uso de elementos de uma época em contexto de outra, de forma incongruente."
       ]
     },
     {
       palavra: "analogia",
-      definições: [
+      definicoes: [
         "Semelhança parcial de estrutura entre coisas diferentes.",
         "Argumento baseado em semelhança, que serve para explicar ou justificar algo."
       ]
     },
     {
       palavra: "análogo",
-      definições: [
+      definicoes: [
         "Que tem analogia com outro; semelhante.",
         "Em biologia, órgãos que cumprem funções iguais, embora tenham origem diferente."
       ]
     },
     {
       palavra: "anédocta",
-      definições: [
+      definicoes: [
         "Narrativa curta e divertida sobre fatos reais.",
         "Historia curiosa ou engraçada que ilustra alguma ideia ou situação."
       ]
     },
     {
       palavra: "antagônico",
-      definições: [
+      definicoes: [
         "Que se opõe, que é contrário.",
         "Relacionamento de conflito entre forças ou ideias contrárias."
       ]
     },
     {
       palavra: "ântese",
-      definições: [
+      definicoes: [
         "Dependência de uma palavra em relação a outra – sintaticamente obsoleta.",
         "Ligação que passa antes de outra no texto (raro)."
       ]
     },
     {
       palavra: "apanágio",
-      definições: [
+      definicoes: [
         "Prerrogativa, vantagem exclusiva conferida a alguém.",
         "Recurso ou benefício próprio de determinada posição ou classe."
       ]
     },
     {
       palavra: "apódico",
-      definições: [
+      definicoes: [
         "Que se demonstra com certeza absoluta; evidente.",
         "Argumento cujo resultado é inevitável e necessário."
       ]
     },
     {
       palavra: "apoteose",
-      definições: [
+      definicoes: [
         "Exaltação suprema, glorificação final de alguém.",
         "Momento máximo de brilho ou intensidade de algo."
       ]
     },
     {
       palavra: "arbitrário",
-      definições: [
+      definicoes: [
         "Que não obedece a regras fixas; temperamental, súbito.",
         "Decisão tomada sem justificativa objetiva."
       ]
     },
     {
       palavra: "arrecadar",
-      definições: [
+      definicoes: [
         "Juntar ou recolher recursos, dinheiro ou bens.",
         "Comprar ou arrecadar produtos para fins comerciais ou fiscais."
       ]
     },
     {
       palavra: "arruinar",
-      definições: [
+      definicoes: [
         "Destruir parcialmente ou totalmente.",
         "Arruinar financeiramente; empobrecer."
       ]
     },
     {
       palavra: "ascético",
-      definições: [
+      definicoes: [
         "Que pratica austeridade, especialmente por motivações religiosas.",
         "Vida disciplinada, desprendimento de prazeres materiais."
       ]
     },
     {
       palavra: "asêpsia",
-      definições: [
+      definicoes: [
         "Conjunto de métodos para evitar infecção; esterilidade.",
         "xterm: procedimento higiênico de assepsia."
       ]
     },
     {
       palavra: "assomo",
-      definições: [
+      definicoes: [
         "Primeira aparência ou sinal de algo.",
         "Indício inicial, vestígio."
       ]
     },
     {
       palavra: "atoso",
-      definições: [
+      definicoes: [
         "Que pratica atos reprováveis ou é facilitador de crime.",
         "Companheiro de um crime – comparsa."
       ]
     },
     {
       palavra: "atroz",
-      definições: [
+      definicoes: [
         "Terrível, cruel, monstruoso.",
         "Muito intenso ou grave, de extrema violência."
       ]
     },
     {
       palavra: "atávico",
-      definições: [
+      definicoes: [
         "Relativo a traços ancestrais transmitidos por herança.",
         "Comportamento ou marca que remonta a eras primordiais."
       ]
     },
     {
       palavra: "avale",
-      definições: [
+      definicoes: [
         "Ato de garantir pagamento de obrigação prestada por outro.",
         "Cuidado juramentado como garantia financeira."
       ]
     },
     {
       palavra: "aviltar",
-      definições: [
+      definicoes: [
         "Tornar vil ou absolutamente desprezível.",
         "Humilhar, diminuir moralmente."
       ]
     },
     {
       palavra: "bacilo",
-      definições: [
+      definicoes: [
         "Bactéria em forma de bastão.",
         "Gênero de bactérias, várias espécies podem causar doenças."
       ]
     },
     {
       palavra: "bafejar",
-      definições: [
+      definicoes: [
         "Soltar bafo ou hálito (vento leve).",
         "Inalar ou exalar brisa suave."
       ]
     },
     {
       palavra: "balido",
-      definições: [
+      definicoes: [
         "Som produzido por carneiros e ovelhas.",
         "Som fraco que imita choro."
       ]
     },
     {
       palavra: "balbúrdia",
-      definições: [
+      definicoes: [
         "Grande bagunça, confusão barulhenta.",
         "Desordem generalizada, tumulto."
       ]
     },
     {
       palavra: "baluarte",
-      definições: [
+      definicoes: [
         "Ponto forte ou suporte principal.","Fortificação militar defensiva."
       ]
     },
     {
       palavra: "banal",
-      definições: [
+      definicoes: [
         "Que é comum, trivial, sem valor.",
         "Frase ou ação sem criatividade ou profundidade."
       ]
     },
     {
       palavra: "barcar",
-      definições: [
+      definicoes: [
         "Levar de barco; transportar por via aquática.",
         "Embarcar, conduzir em barco."
       ]
     },
     {
       palavra: "barítono",
-      definições: [
+      definicoes: [
         "Voz masculina entre tenor e baixo.",
         "Cantor que canta nessa tessitura."
       ]
     },
     {
       palavra: "basilar",
-      definições: [
+      definicoes: [
         "Que está na base; fundamental.",
         "Elementar, essencial."
       ]
     },
     {
       palavra: "beligerante",
-      definições: [
+      definicoes: [
         "Que participa de guerra ou conflito.",
         "Adotando atitude agressiva ou hostil."
       ]
     },
     {
       palavra: "beneficência",
-      definições: [
+      definicoes: [
         "Ato de fazer o bem, caridade.",
         "Instituição que presta socorro a necessitados."
       ]
     },
     {
       palavra: "benfeitor",
-      definições: [
+      definicoes: [
         "Pessoa que faz o bem ou ajuda outra.",
         "Patrono que financia obras ou pessoas."
       ]
     },
     {
       palavra: "berrante",
-      definições: [
+      definicoes: [
         "Instrumento usado por vaqueiros para chamar o gado.",
         "Som estridente, alarme."
       ]
     },
     {
       palavra: "bissexto",
-      definições: [
+      definicoes: [
         "Ano que tem 366 dias, com dia 29 de fevereiro.",
         "Referente a anos que coincidem com esse calendário."
       ]
     },
     {
       palavra: "blasfêmia",
-      definições: [
+      definicoes: [
         "Fala ou ato que insulta coisa sagrada ou religião.",
         "Ofensa grave às entidades religiosas."
       ]
     },
     {
       palavra: "boêmio",
-      definições: [
+      definicoes: [
         "Pessoa que gosta de vida noturna e boemia.",
         "Comportamento de boêmia: bares, festas, música."
       ]
     },
     {
       palavra: "bombástico",
-      definições: [
+      definicoes: [
         "Exagerado no tom ou na apresentação.",
         "Pretensioso, pomposo."
       ]
     },
     {
       palavra: "brado",
-      definições: [
+      definicoes: [
         "Grito forte e alto.",
         "Clamor ou proclamação."
       ]
     },
     {
       palavra: "braldar",
-      definições: [
+      definicoes: [
         "Inventar palavra sem sentido (neologismo jocoso).",
         "Falar de modo ininteligível ou enrolado."
       ]
     },
     {
       palavra: "brio",
-      definições: [
+      definicoes: [
         "Orgulho, vaidade.",
         "Honra; energia e vigor de comportamento."
       ]
     },
     {
       palavra: "brocado",
-      definições: [
+      definicoes: [
         "Tecido decorado com fios de metal ou relevo.",
         "Metáfora: discurso ornamentado, rebuscado."
       ]
     },
     {
       palavra: "bucólico",
-      definições: [
+      definicoes: [
         "Relativo ao campo e à vida campestre.",
         "Pitoresco, sereno, tranquilo como zona rural."
       ]
     },
     {
       palavra: "buruiense",
-      definições: [
+      definicoes: [
         "Morador de Burúria (palavra fictícia).",
         "Termo criado hipoteticamente; geralmente usado como exemplo."
       ]
     },
     {
       palavra: "cacofonia",
-      definições: [
+      definicoes: [
         "Conjunção de sons desagradáveis.",
         "Som dissonante que incomoda o ouvido."
       ]
     },
     {
       palavra: "cadência",
-      definições: [
+      definicoes: [
         "Ritmo ou suavidade de movimentos ou sons.",
         "Encerramento de frase musical."
       ]
     },
     {
       palavra: "cafre",
-      definições: [
+      definicoes: [
         "Termo ofensivo usado para se referir a pessoas de cor em certa região da África.",
         "Forma pejorativa e muito ofensiva; usado com cuidado."
       ]
     },
     {
       palavra: "caligrafia",
-      definições: [
+      definicoes: [
         "Arte de escrever bem e com boa forma.",
         "Conjunto de traços e estilo particulares da escrita."
       ]
     },
     {
       palavra: "camarilha",
-      definições: [
+      definicoes: [
         "Grupo político que age nos bastidores.",
         "Conjunto de pessoas influentes mas sem cargo formal."
       ]
     },
     {
       palavra: "cândido",
-      definições: [
+      definicoes: [
         "Branco, claro; ou puro, ingênuo, sem malícia.",
         "Pessoa de caráter honesto e inocente."
       ]
     },
     {
       palavra: "canônico",
-      definições: [
+      definicoes: [
         "Relativo ao cânone; autorizado, oficial.",
         "Música dentro das regras tradicionais"
       ]
     },
     {
       palavra: "capcioso",
-      definições: [
+      definicoes: [
         "Que engana, que induz ao erro.",
         "Pergunta capciosa: armadilha lógica na pergunta."
       ]
     },
     {
       palavra: "capitu",
-      definições: [
+      definicoes: [
         "Personagem famosa de Machado de Assis (Dom Casmurro).",
         "Figura enigmática, comparada a mulher misteriosa."
       ]
     },
     {
       palavra: "carminar",
-      definições: [
+      definicoes: [
         "Pôr cor de carmim; tingir de vermelho intenso.",
         "Em botânica, tingir com corante carmín."
       ]
     },
     {
       palavra: "cartografia",
-      definições: [
+      definicoes: [
         "Arte técnica de elaborar cartas geográficas.",
         "Conjunto de métodos e estudos referentes a mapas."
       ]
     },
     {
       palavra: "cascabulho",
-      definições: [
+      definicoes: [
         "Chocalho de metal usado em instrumentos percussivos.",
         "Sino pequeno que faz barulho."
       ]
     },
     {
       palavra: "cativar",
-      definições: [
+      definicoes: [
         "Atrair, conquistar pela simpatia.",
         "Dominar o afeto de alguém."
       ]
     },
     {
       palavra: "cedeista",
-      definições: [
+      definicoes: [
         "Pessoa que defende a Confederação da União na Guerra Civil (EUA).",
         "Histórico: defensor do Sul na Guerra Civil Americana."
       ]
     },
     {
       palavra: "celerado",
-      definições: [
+      definicoes: [
         "Pessoa má, perversa, canalha.",
         "Que age com maldade, falta de escrúpulos."
       ]
     },
     {
       palavra: "cellebrar",
-      definições: [
+      definicoes: [
         "Forma arcaica de celebrar; comemorar.",
         "Antigamente: festejar ou santificar."
       ]
     },
     {
       palavra: "chacota",
-      definições: [
+      definicoes: [
         "Brincadeira satírica que ridiculariza.",
         "Zombaria ou gozação."
       ]
     },
     {
       palavra: "chalé",
-      definições: [
+      definicoes: [
         "Tipo de casa de campo ou montanha, de estilo europeu.",
         "Construção geralmente pequena e confortável."
       ]
     },
     {
       palavra: "chancelar",
-      definições: [
+      definicoes: [
         "Aprovar formalmente; autenticar com selo ou chancela.",
         "Reconhecer oficialmente, ratificar."
       ]
     },
     {
       palavra: "charneca",
-      definições: [
+      definicoes: [
         "Tipo de vegetação rasteira em solo pobre (pântano, brezões).",
         "Região aberta e pastoril com vegetação esparsa."
       ]
     },
     {
       palavra: "chucro",
-      definições: [
+      definicoes: [
         "Que ficou bravo, irritado.",
         "Pessoa zangada, de feição contraída."
       ]
     },
     {
       palavra: "cinzel",
-      definições: [
+      definicoes: [
         "Ferramenta para escultura ou carpintaria, com talhadeira.",
         "Instrumento para entalhar madeira ou pedra."
       ]
     },
     {
       palavra: "circunspecto",
-      definições: [
+      definicoes: [
         "Que age com reserva, prudência e discrição.",
         "Formal, sério e ponderado no comportamento."
       ]
     },
     {
       palavra: "clamor",
-      definições: [
+      definicoes: [
         "Grito coletivo ou apelo insistente.",
         "Protesto alto, demanda pública."
       ]
     },
     {
       palavra: "coadunar",
-      definições: [
+      definicoes: [
         "Harmonizar, estar de acordo com algo.",
         "Concordar ou ajustar-se a uma ideia."
       ]
     },
     {
       palavra: "coerente",
-      definições: [
+      definicoes: [
         "Que faz sentido; consistente internamente.",
         "Que apresenta harmonia entre ideias e ações."
       ]
     },
     {
       palavra: "cognato",
-      definições: [
+      definicoes: [
         "Que tem origem comum; aparentado linguístico.",
         "Palavra em línguas diferentes mas derivadas de mesma raiz."
       ]
     },
     {
       palavra: "coibir",
-      definições: [
+      definicoes: [
         "Impedir, reprimirt comportamento ou ação.",
         "Contornar ou inibir algo prejudicial ou ilícito."
       ]
     },
     {
       palavra: "coligir",
-      definições: [
+      definicoes: [
         "Juntar, reunir ideias ou dados.",
         "Extrair conclusões com base em observações."
       ]
     },
     {
       palavra: "coligação",
-      definições: [
+      definicoes: [
         "União formal de grupos ou partidos por finalidade comum.",
         "Associação de esforços para objetivo compartilhado."
       ]
     },
     {
       palavra: "comensal",
-      definições: [
+      definicoes: [
         "Pessoa que se senta à mesa para comer com outros.",
         "Animal que se alimenta à custa de outro sem lhe causar dano."
       ]
     },
     {
       palavra: "comorada",
-      definições: [
+      definicoes: [
         "Ato de morar com outra pessoa sem vínculo legal.",
         "União estável sem casamento formal."
       ]
     },
     {
       palavra: "compungido",
-      definições: [
+      definicoes: [
         "Cheio de pesar, tristeza ou arrependimento.",
         "Que demonstra congraçamento ou abatimento moral."
       ]
     },
     {
       palavra: "concíliar",
-      definições: [
+      definicoes: [
         "Aproximar partes em conflito; harmonizar.",
         "Entrar em consenso, compatibilizar diferenças."
       ]
     },
     {
       palavra: "condescendente",
-      definições: [
+      definicoes: [
         "Pessoa que age com indulgência ou paternalismo.",
         "Atitude de superioridade amena ou benevolente."
       ]
     },
     {
       palavra: "confluência",
-      definições: [
+      definicoes: [
         "Lugar onde dois rios se encontram.",
         "Convergência de ideias, interesses ou circunstâncias."
       ]
     },
     {
       palavra: "conjectura",
-      definições: [
+      definicoes: [
         "Suposição ou hipótese sem provas.",
         "Palpitação baseada em dedução."
       ]
     },
     {
       palavra: "consignar",
-      definições: [
+      definicoes: [
         "Depositar ou anotar algo para registro.",
         "Entregar mercadoria para venda em consignação."
       ]
     },
     {
       palavra: "contumaz",
-      definições: [
+      definicoes: [
         "Persistente no erro ou na teimosia.",
         "Pessoa reincidente ou obstinada."
       ]
     },
     {
       palavra: "copioso",
-      definições: [
+      definicoes: [
         "Em grande quantidade; abundante.",
         "Detalhado, farto em informações ou dados."
       ]
     },
     {
       palavra: "corpóreo",
-      definições: [
+      definicoes: [
         "Que tem corpo; corpulento ou material.",
         "Representado na matéria sólida e tangível."
       ]
     },
     {
       palavra: "crônico",
-      definições: [
+      definicoes: [
         "Que ocorre com freqüência ou de long duração.",
         "Doença existente por longo tempo ou constante."
       ]
     },
     {
       palavra: "culminar",
-      definições: [
+      definicoes: [
         "Chegar ao ponto mais alto, terminar com clâmax.",
         "Atingir o ápice ou auge de algo."
       ]
     },
     {
       palavra: "cupidez",
-      definições: [
+      definicoes: [
         "Desejo excessivo de riquezas ou posses.",
         "Avidez, cobiça."
       ]
     },
     {
       palavra: "cursilaria",
-      definições: [
+      definicoes: [
         "Crônica acontecimento de rotina ou curso.",
         "Ação de cursar, de frequentar aulas (arcaísmo)."
       ]
     },
     {
       palavra: "decadência",
-      definições: [
+      definicoes: [
         "Declínio gradual, perda de força ou prestígio.",
         "Estado de dilapidação moral ou cultural."
       ]
     },
     {
       palavra: "deferência",
-      definições: [
+      definicoes: [
         "Respeito, atenção especial a alguém.",
         "Atitude de veneração ou consideração."
       ]
     },
     {
       palavra: "deflagrar",
-      definições: [
+      definicoes: [
         "Dar início a algo; desencadear.",
         "Referente a explosão que inicia reação em cadeia."
       ]
     },
     {
       palavra: "deleitar",
-      definições: [
+      definicoes: [
         "Proporcionar grande prazer ou gozo.",
         "Encantar, agradar muito."
       ]
     },
     {
       palavra: "demasia",
-      definições: [
+      definicoes: [
         "Quantidade excessiva; exagero.",
         "Excesso, superabundância de algo."
       ]
     },
     {
       palavra: "demérito",
-      definições: [
+      definicoes: [
         "Falta, falha que traz vergonha ou penalidade.",
         "Ponto negativo, desvantagem."
       ]
     },
     {
       palavra: "denegrir",
-      definições: [
+      definicoes: [
         "Tornar escuro, tornar desprezível; manchar reputação.",
         "Difamar alguém, macular sua imagem."
       ]
     },
     {
       palavra: "depravar",
-      definições: [
+      definicoes: [
         "Corromper moralmente.",
         "Tornar perverso ou imoral."
       ]
     },
     {
       palavra: "derrogar",
-      definições: [
+      definicoes: [
         "Rejeitar, revogar uma lei, norma ou costume.",
         "Anular, extinguir um ato jurídico."
       ]
     },
     {
       palavra: "desabar",
-      definições: [
+      definicoes: [
         "Desmoronar-se ou cair subitamente.",
         "Entrar em colapso emocional ou físico."
       ]
     },
     {
       palavra: "desbastar",
-      definições: [
+      definicoes: [
         "Tornar menos bruto; polir, refinar.",
         "Remover partes excessivas para dar forma."
       ]
     },
     {
       palavra: "descabido",
-      definições: [
+      definicoes: [
         "Que não tem lógica ou razoabilidade.",
         "Despropositado, inadequado."
       ]
     },
     {
       palavra: "desdém",
-      definições: [
+      definicoes: [
         "Desprezo, menosprezo.",
         "Indiferença altiva que ofende."
       ]
     },
     {
       palavra: "desfalecer",
-      definições: [
+      definicoes: [
         "Perder as forças, quase desmaiar.",
         "Enfraquecer-se, falhar moralmente."
       ]
     },
     {
       palavra: "deslindar",
-      definições: [
+      definicoes: [
         "Esclarecer, separar o que está emaranhado.",
         "Dissolver confusão, encontrar solução."
       ]
     },
     {
       palavra: "despender",
-      definições: [
+      definicoes: [
         "Empregar tempo, esforço ou recursos.",
         "Gastar, consumir."
       ]
     },
     {
       palavra: "deter",
-      definições: [
+      definicoes: [
         "Conter, impedir que algo prossiga.",
         "Desestimular ou dissuadir alguém."
       ]
     },
     {
       palavra: "dilacerar",
-      definições: [
+      definicoes: [
         "Rasgar, despedaçar violentamente.",
         "Ferir profundamente, emocionalmente ou fisicamente."
       ]
     },
     {
       palavra: "diligenciar",
-      definições: [
+      definicoes: [
         "Empreender esforços constantes para realizar algo.",
         "Agir com aplicação e cuidado; correr atrás."
       ]
     },
     {
       palavra: "dinâmico",
-      definições: [
+      definicoes: [
         "Que apresenta movimento, atividade.",
         "Pessoas enérgicas e atuantes."
       ]
     },
     {
       palavra: "discrepante",
-      definições: [
+      definicoes: [
         "Que apresenta discordância ou diferença.",
         "Incompatível ou contrário ao esperado."
       ]
     },
     {
       palavra: "discreto",
-      definições: [
+      definicoes: [
         "Que demonstra cautela, prudência no falar.",
         "Que não chama atenção, reservado."
       ]
     },
     {
       palavra: "disfuncional",
-      definições: [
+      definicoes: [
         "Que não funciona adequadamente.",
         "Em psicologia, família com relações prejudiciais."
       ]
     },
     {
       palavra: "dissonância",
-      definições: [
+      definicoes: [
         "Falta de harmonia entre sons ou ideias.",
         "Contraste que causa incomodo ou choque."
       ]
     },
     {
       palavra: "dissipar",
-      definições: [
+      definicoes: [
         "Fazer desaparecer ou dispersar.",
         "Desperdiçar, gastar sem proveito."
       ]
     },
     {
       palavra: "docente",
-      definições: [
+      definicoes: [
         "Que ensina; professor.",
         "Relacionado à arte ou prática do ensino."
       ]
     },
     {
       palavra: "dogmático",
-      definições: [
+      definicoes: [
         "Que sustenta ideias como verdades indiscutíveis.",
         "Rigidez em posição ideológica ou doutrinária."
       ]
     },
     {
       palavra: "efêmero",
-      definições: [
+      definicoes: [
         "De curta duração; passageiro.",
         "Transitivo, que rapidamente desaparece."
       ]
     },
     {
       palavra: "efetivo",
-      definições: [
+      definicoes: [
         "Real, verdadeiro; existente.",
         "Relativo ao pessoal em exercício (militar, policial)."
       ]
     },
     {
       palavra: "efluxo",
-      definições: [
+      definicoes: [
         "Escoamento, saída de líquido ou matéria.",
         "Degradação gradual por uso ou ação."
       ]
     },
     {
       palavra: "elã",
-      definições: [
+      definicoes: [
         "Entusiasmo, energia, vitalidade.",
         "Inspiração para ação criativa ou laboriosa."
       ]
     },
     {
       palavra: "elencar",
-      definições: [
+      definicoes: [
         "Relacionar ou enumerar elementos.",
         "Fazer lista de itens ou participantes."
       ]
     },
     {
       palavra: "elidir",
-      definições: [
+      definicoes: [
         "Suprimir, omitir alguma parte.",
         "Excluir um elemento textual ou sonoro."
       ]
     },
     {
       palavra: "elogiar",
-      definições: [
+      definicoes: [
         "Fazer elogios ou comentários positivos.",
         "Exaltar qualidades ou méritos de alguém."
       ]
     },
     {
       palavra: "eloquente",
-      definições: [
+      definicoes: [
         "Que se expressa com clareza e persuasão.",
         "Expressivo, marcante na oratória."
       ]
     },
     {
       palavra: "embater",
-      definições: [
+      definicoes: [
         "Chocar-se contra algo.",
         "Bater abruptamente."
       ]
