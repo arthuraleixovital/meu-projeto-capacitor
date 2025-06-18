@@ -15,18 +15,35 @@
 		}
 	}
 	listagem();
-	console.log(def);
 </script>
 
-<h1><b>{data.palavra[0].palavra.toUpperCase()}</b></h1>
+<div class="container py-4">
+	<div class="card shadow-sm">
+		<div class="card-body">
+			<h1 class="card-title text-center mb-4">
+				{data.palavra[0].palavra.toUpperCase()}
+			</h1>
 
-{#if data.palavra[0].definicoes.length > 0}
-	<h4>Definições</h4>
-	{#each data.palavra[0].definicoes as definicao}
-		<p>
-			{#each definicao.split(' ') as palavra}
-				<a href={'/dicionario/' + palavra.replace(/[.,!?]/g, '')}>{palavra}</a>{' '}
-			{/each}
-		</p>
-	{/each}
-{/if}
+			{#if data.palavra[0].definicoes.length > 0}
+				<h5 class="mb-3">Definições:</h5>
+
+				{#each data.palavra[0].definicoes as definicao}
+					<p class="mb-2">
+						{#each definicao.split(' ') as palavra}
+							<a href={'/dicionario/' + palavra.replace(/[.,!?]/g, '').toLowerCase()} rel="external">{palavra}</a
+							>{' '}
+						{/each}
+					</p>
+				{/each}
+			{:else}
+				<div class="alert alert-warning" role="alert">Nenhuma definição encontrada.</div>
+			{/if}
+
+			<div class="d-grid mt-4">
+				<button type="button" class="btn btn-primary btn-lg" onclick={() => history.back()}>
+					Retornar
+				</button>
+			</div>
+		</div>
+	</div>
+</div>
