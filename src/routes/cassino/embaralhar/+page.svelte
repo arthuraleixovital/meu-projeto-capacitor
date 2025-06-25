@@ -35,3 +35,9 @@
 			{/each}
 		</ul>
 	{/if}
+
+	<div class="d-grid mt-4">
+		<button type="button" class="btn btn-primary btn-lg" onclick={() => history.back()}>
+			Retornar
+		</button>
+	</div>

@@ -11,5 +11,5 @@ import { goto } from "$app/navigation";
 <button onclick={() => goto('/cassino/dados')}>Dados</button>
 <button onclick={() => goto('/cassino/roleta')}>Roleta</button>
 <button onclick={() => goto('/cassino/moeda')}>Cara ou Coroa</button>
-<button onclick={() => goto('/cassino/slots')}>Slots</button>
-<button onclick={() => goto('/cassino/crash')}>Crash</button>
+<button onclick={() => goto('/cassino/niquel')}>Caça niquel</button>
+<button onclick={() => goto('/cassino/megasena')}>Mega Sena</button>

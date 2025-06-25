@@ -12,3 +12,9 @@
 <input type="number" bind:value={max} placeholder="Máximo" />
 <button onclick={gerarNumero}>Gerar Número</button>
 <p>O número gerado é: <strong>{numero}</strong></p>
+
+<div class="d-grid mt-4">
+    <button type="button" class="btn btn-primary btn-lg" onclick={() => history.back()}>
+        Retornar
+    </button>
+</div>
