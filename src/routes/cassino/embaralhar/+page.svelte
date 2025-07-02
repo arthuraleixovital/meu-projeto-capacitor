@@ -20,24 +20,40 @@
 	}
 </script>
 
+<!-- Container centralizado e responsivo -->
+<div class="container-fluid bg-light min-vh-100 d-flex flex-column justify-content-center align-items-center p-4">
+	<div class="w-100" style="max-width: 500px;">
+		<h1 class="text-success fw-bold text-center mb-4">🔀 Embaralhar Lista</h1>
 
-	<h1>Embaralhar Lista</h1>
+		<!-- Campo de texto com altura ajustável e borda grande para toque fácil -->
+		<textarea
+			bind:value={inputLista}
+			class="form-control form-control-lg mb-3 text-start"
+			rows="6"
+			placeholder="Digite uma lista, uma palavra por linha...">
+		</textarea>
 
-	<textarea bind:value={inputLista} class="form-control mb-3" rows="6" placeholder="Digite uma lista, uma palavra por linha..."></textarea>
+		<!-- Botão grande e acessível -->
+		<div class="d-grid mb-4">
+			<button class="btn btn-success btn-lg" onclick={processarLista}>
+				🎯 Embaralhar
+			</button>
+		</div>
 
-	<button onclick={processarLista}> Embaralhar </button>
+		{#if resultado.length > 0}
+			<h3 class="text-center mb-3">Resultado:</h3>
+			<ul class="list-group mb-4">
+				{#each resultado as item}
+					<li class="list-group-item fs-5">{item}</li>
+				{/each}
+			</ul>
+		{/if}
 
-	{#if resultado.length > 0}
-		<h3>Resultado:</h3>
-		<ul class="list-group">
-			{#each resultado as item}
-				<li class="list-group-item">{item}</li>
-			{/each}
-		</ul>
-	{/if}
-
-	<div class="d-grid mt-4">
-		<button type="button" class="btn btn-primary btn-lg" onclick={() => history.back()}>
-			Retornar
-		</button>
+		<!-- Botão de retorno -->
+		<div class="d-grid">
+			<button type="button" class="btn btn-primary btn-lg" onclick={() => history.back()}>
+				⬅️ Retornar
+			</button>
+		</div>
 	</div>
+</div>
